@@ -3,14 +3,14 @@
 ## 구현할 기능 목록
 
 - game 함수
-  전체 진행을 담당하면서, game logic 함수를 실행시킨다.
-  완료 후에는 게임을 새로 시작할지 종료할지 입력 받는다.
+  - 전체 진행을 담당하면서, game logic 함수를 실행시킨다.
+  - 완료 후에는 게임을 새로 시작할지 종료할지 입력 받는다.
   
 - gameLogic 함수
-  makeRandomNumbers 함수를 실행시키고
-  숫자를 입력받는다.
-  isValidInput 함수를 통해 유효한 입력인지 확인한다.
-  strikeBallCheck 함수를 통해 결과를 출력한다.
+  - makeRandomNumbers 함수를 실행시키고
+  - 숫자를 입력받는다.
+  - isValidInput 함수를 통해 유효한 입력인지 확인한다.
+  - strikeBallCheck 함수를 통해 결과를 출력한다.
   
 - makeRandomNumbers 함수
   math.random() 함수를 통해 1-9의 숫자를 랜덤으로 만든다.
